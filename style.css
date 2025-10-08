@@ -1,0 +1,71 @@
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #fceabb, #f8b500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h1 {
+    color: #ff6b6b;
+    margin-bottom: 40px;
+}
+
+/* Button Styling */
+button {
+    background-color: #ff6b6b;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #ff4757;
+    transform: scale(1.05);
+}
+
+/* Dog Card */
+.dog-card {
+    background-color: #fff8f0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    display: inline-block;
+}
+.dog-card:hover{
+     box-shadow: 0 5px 15px rgba(0,0,0,0.9);
+}
+
+/* Paragraph Styling */
+#output {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Image Styling */
+#result {
+    height:300px;
+    width:300px;
+    border-radius: 15px;
+    border: 2px solid #ff6b6b;
+}
