@@ -1,22 +1,26 @@
-# 📁 Document Gallery API
+# 🖼️ Document Gallery API Integrated
 
-A backend API built for managing and organizing documents efficiently.  
-It provides endpoints to **upload, retrieve, update, and delete documents** with secure and structured API design.
+A simple web app to display **random cat and dog images** using public APIs.
 
-## 🚀 Features
-- Create, Read, Update, and Delete (CRUD) operations for documents.
-- RESTful API architecture.
-- JSON-based request and response handling.
-- Error handling and input validation.
-- Easy integration with frontend apps.
+## Features
+- Fetch random **dog images** using the [Dog CEO API](https://dog.ceo/dog-api/)
+- Fetch random **cat images** using [The Cat API](https://thecatapi.com/)
+- Click the **Show** button to display a new random image
+- Built with **HTML, CSS, and JavaScript**
+- Uses **Axios** for API requests and dynamic DOM updates
 
-## 🧠 Tech Stack
-- **Node.js** – JavaScript runtime.
-- **Express.js** – Web framework for building APIs.
-- **MongoDB / Mongoose** *(if used)* – For database management.
-- **Multer** *(optional)* – For file uploads.
+## How to Use
+1. Open `index.html` in your web browser.
+2. Click the **Show** button to display a random dog or cat image.
+3. Images appear dynamically without reloading the page.
 
-## ⚙️ Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/kavya-reddy-1207/Document-Gallery-API-Integrated.git
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- Axios (for API requests)
+- Public APIs (Dog CEO & The Cat API)
+
+## Author
+**Kavya Reddy**  
+GitHub: [kavya-reddy-1207](https://github.com/kavya-reddy-1207)
